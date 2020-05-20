@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06D06DB2247402C60017523E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D06DB1247402C60017523E /* AppDelegate.swift */; };
+		06D06DB4247402C70017523E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D06DB3247402C70017523E /* SceneDelegate.swift */; };
+		06D06DB6247402C70017523E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D06DB5247402C70017523E /* ViewController.swift */; };
+		06D06DB9247402C70017523E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06D06DB7247402C70017523E /* Main.storyboard */; };
+		06D06DBB247402C80017523E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D06DBA247402C80017523E /* Assets.xcassets */; };
+		06D06DBE247402C80017523E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06D06DBC247402C80017523E /* LaunchScreen.storyboard */; };
+		06D06DC9247402C80017523E /* TouratyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D06DC8247402C80017523E /* TouratyTests.swift */; };
+		06D06DD4247402C80017523E /* TouratyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D06DD3247402C80017523E /* TouratyUITests.swift */; };
+		06D06DE824743C230017523E /* Art.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D06DE724743C230017523E /* Art.swift */; };
+		06D06DEA24743E200017523E /* ArtCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D06DE924743E200017523E /* ArtCollectionViewCell.swift */; };
+		06D06DEC247442E10017523E /* ArtViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D06DEB247442E10017523E /* ArtViewModel.swift */; };
+		3054EE69109B5B18E5052812 /* Pods_Touraty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77E72612DF615C2A8A34A90 /* Pods_Touraty.framework */; };
+		DF21285BE54A4222856D7B95 /* Pods_TouratyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EA09EC7AFEB400812BC0BF7 /* Pods_TouratyTests.framework */; };
+		EA47685DE3045B2D03806B1F /* Pods_TouratyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8776CF0E39976A57476554 /* Pods_TouratyUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06D06DC5247402C80017523E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06D06DA6247402C60017523E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06D06DAD247402C60017523E;
+			remoteInfo = Touraty;
+		};
+		06D06DD0247402C80017523E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06D06DA6247402C60017523E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06D06DAD247402C60017523E;
+			remoteInfo = Touraty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06D06DAE247402C60017523E /* Touraty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touraty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06D06DB1247402C60017523E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		06D06DB3247402C70017523E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		06D06DB5247402C70017523E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		06D06DB8247402C70017523E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06D06DBA247402C80017523E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06D06DBD247402C80017523E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06D06DBF247402C80017523E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06D06DC4247402C80017523E /* TouratyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouratyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06D06DC8247402C80017523E /* TouratyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouratyTests.swift; sourceTree = "<group>"; };
+		06D06DCA247402C80017523E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06D06DCF247402C80017523E /* TouratyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouratyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06D06DD3247402C80017523E /* TouratyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouratyUITests.swift; sourceTree = "<group>"; };
+		06D06DD5247402C80017523E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06D06DE724743C230017523E /* Art.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Art.swift; sourceTree = "<group>"; };
+		06D06DE924743E200017523E /* ArtCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCollectionViewCell.swift; sourceTree = "<group>"; };
+		06D06DEB247442E10017523E /* ArtViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtViewModel.swift; sourceTree = "<group>"; };
+		1EA09EC7AFEB400812BC0BF7 /* Pods_TouratyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TouratyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69BFBC2351ADD869B2DAD434 /* Pods-TouratyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouratyTests.release.xcconfig"; path = "Target Support Files/Pods-TouratyTests/Pods-TouratyTests.release.xcconfig"; sourceTree = "<group>"; };
+		6ADD99DF57E1009C545D21EE /* Pods-TouratyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouratyUITests.debug.xcconfig"; path = "Target Support Files/Pods-TouratyUITests/Pods-TouratyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C8776CF0E39976A57476554 /* Pods_TouratyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TouratyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		841BFD8831C191BA954E89FC /* Pods-TouratyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouratyTests.debug.xcconfig"; path = "Target Support Files/Pods-TouratyTests/Pods-TouratyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9EA700F203D0D877083733FB /* Pods-Touraty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Touraty.debug.xcconfig"; path = "Target Support Files/Pods-Touraty/Pods-Touraty.debug.xcconfig"; sourceTree = "<group>"; };
+		A9476D930047519EF03358C3 /* Pods-TouratyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouratyUITests.release.xcconfig"; path = "Target Support Files/Pods-TouratyUITests/Pods-TouratyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D77E72612DF615C2A8A34A90 /* Pods_Touraty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Touraty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9050683D8C54030715EC182 /* Pods-Touraty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Touraty.release.xcconfig"; path = "Target Support Files/Pods-Touraty/Pods-Touraty.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06D06DAB247402C60017523E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3054EE69109B5B18E5052812 /* Pods_Touraty.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D06DC1247402C80017523E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF21285BE54A4222856D7B95 /* Pods_TouratyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D06DCC247402C80017523E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA47685DE3045B2D03806B1F /* Pods_TouratyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06D06DA5247402C60017523E = {
+			isa = PBXGroup;
+			children = (
+				06D06DB0247402C60017523E /* Touraty */,
+				06D06DC7247402C80017523E /* TouratyTests */,
+				06D06DD2247402C80017523E /* TouratyUITests */,
+				06D06DAF247402C60017523E /* Products */,
+				EE5B9E8F758686B477CCDB3A /* Pods */,
+				421192B9CFE6D790545C74C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		06D06DAF247402C60017523E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06D06DAE247402C60017523E /* Touraty.app */,
+				06D06DC4247402C80017523E /* TouratyTests.xctest */,
+				06D06DCF247402C80017523E /* TouratyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06D06DB0247402C60017523E /* Touraty */ = {
+			isa = PBXGroup;
+			children = (
+				06D06DE1247402F30017523E /* App */,
+				06D06DE2247403050017523E /* Data */,
+				06D06DB1247402C60017523E /* AppDelegate.swift */,
+				06D06DB3247402C70017523E /* SceneDelegate.swift */,
+				06D06DBA247402C80017523E /* Assets.xcassets */,
+				06D06DBC247402C80017523E /* LaunchScreen.storyboard */,
+				06D06DBF247402C80017523E /* Info.plist */,
+			);
+			path = Touraty;
+			sourceTree = "<group>";
+		};
+		06D06DC7247402C80017523E /* TouratyTests */ = {
+			isa = PBXGroup;
+			children = (
+				06D06DC8247402C80017523E /* TouratyTests.swift */,
+				06D06DCA247402C80017523E /* Info.plist */,
+			);
+			path = TouratyTests;
+			sourceTree = "<group>";
+		};
+		06D06DD2247402C80017523E /* TouratyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06D06DD3247402C80017523E /* TouratyUITests.swift */,
+				06D06DD5247402C80017523E /* Info.plist */,
+			);
+			path = TouratyUITests;
+			sourceTree = "<group>";
+		};
+		06D06DE1247402F30017523E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				06D06DE32474033A0017523E /* Art */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		06D06DE2247403050017523E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		06D06DE32474033A0017523E /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				06D06DE62474034F0017523E /* UI */,
+				06D06DE52474034A0017523E /* Model */,
+				06D06DE4247403440017523E /* ViewModel */,
+			);
+			path = Art;
+			sourceTree = "<group>";
+		};
+		06D06DE4247403440017523E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				06D06DEB247442E10017523E /* ArtViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		06D06DE52474034A0017523E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				06D06DE724743C230017523E /* Art.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		06D06DE62474034F0017523E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				06D06DB5247402C70017523E /* ViewController.swift */,
+				06D06DB7247402C70017523E /* Main.storyboard */,
+				06D06DE924743E200017523E /* ArtCollectionViewCell.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		421192B9CFE6D790545C74C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D77E72612DF615C2A8A34A90 /* Pods_Touraty.framework */,
+				1EA09EC7AFEB400812BC0BF7 /* Pods_TouratyTests.framework */,
+				7C8776CF0E39976A57476554 /* Pods_TouratyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE5B9E8F758686B477CCDB3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EA700F203D0D877083733FB /* Pods-Touraty.debug.xcconfig */,
+				F9050683D8C54030715EC182 /* Pods-Touraty.release.xcconfig */,
+				841BFD8831C191BA954E89FC /* Pods-TouratyTests.debug.xcconfig */,
+				69BFBC2351ADD869B2DAD434 /* Pods-TouratyTests.release.xcconfig */,
+				6ADD99DF57E1009C545D21EE /* Pods-TouratyUITests.debug.xcconfig */,
+				A9476D930047519EF03358C3 /* Pods-TouratyUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06D06DAD247402C60017523E /* Touraty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06D06DD8247402C80017523E /* Build configuration list for PBXNativeTarget "Touraty" */;
+			buildPhases = (
+				9CB0FFD2B24D4B074267FEE0 /* [CP] Check Pods Manifest.lock */,
+				06D06DAA247402C60017523E /* Sources */,
+				06D06DAB247402C60017523E /* Frameworks */,
+				06D06DAC247402C60017523E /* Resources */,
+				F638F1FFFBA7D340E3F7D209 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Touraty;
+			productName = Touraty;
+			productReference = 06D06DAE247402C60017523E /* Touraty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06D06DC3247402C80017523E /* TouratyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06D06DDB247402C80017523E /* Build configuration list for PBXNativeTarget "TouratyTests" */;
+			buildPhases = (
+				38F06A50F046285001F1E357 /* [CP] Check Pods Manifest.lock */,
+				06D06DC0247402C80017523E /* Sources */,
+				06D06DC1247402C80017523E /* Frameworks */,
+				06D06DC2247402C80017523E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06D06DC6247402C80017523E /* PBXTargetDependency */,
+			);
+			name = TouratyTests;
+			productName = TouratyTests;
+			productReference = 06D06DC4247402C80017523E /* TouratyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06D06DCE247402C80017523E /* TouratyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06D06DDE247402C80017523E /* Build configuration list for PBXNativeTarget "TouratyUITests" */;
+			buildPhases = (
+				FB0BE365D57A63169F48E54D /* [CP] Check Pods Manifest.lock */,
+				06D06DCB247402C80017523E /* Sources */,
+				06D06DCC247402C80017523E /* Frameworks */,
+				06D06DCD247402C80017523E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06D06DD1247402C80017523E /* PBXTargetDependency */,
+			);
+			name = TouratyUITests;
+			productName = TouratyUITests;
+			productReference = 06D06DCF247402C80017523E /* TouratyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06D06DA6247402C60017523E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = MT5619;
+				TargetAttributes = {
+					06D06DAD247402C60017523E = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					06D06DC3247402C80017523E = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 06D06DAD247402C60017523E;
+					};
+					06D06DCE247402C80017523E = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 06D06DAD247402C60017523E;
+					};
+				};
+			};
+			buildConfigurationList = 06D06DA9247402C60017523E /* Build configuration list for PBXProject "Touraty" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06D06DA5247402C60017523E;
+			productRefGroup = 06D06DAF247402C60017523E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06D06DAD247402C60017523E /* Touraty */,
+				06D06DC3247402C80017523E /* TouratyTests */,
+				06D06DCE247402C80017523E /* TouratyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06D06DAC247402C60017523E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D06DBE247402C80017523E /* LaunchScreen.storyboard in Resources */,
+				06D06DBB247402C80017523E /* Assets.xcassets in Resources */,
+				06D06DB9247402C70017523E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D06DC2247402C80017523E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D06DCD247402C80017523E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38F06A50F046285001F1E357 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TouratyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CB0FFD2B24D4B074267FEE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Touraty-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F638F1FFFBA7D340E3F7D209 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Touraty/Pods-Touraty-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Touraty/Pods-Touraty-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Touraty/Pods-Touraty-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB0BE365D57A63169F48E54D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TouratyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06D06DAA247402C60017523E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D06DEC247442E10017523E /* ArtViewModel.swift in Sources */,
+				06D06DB6247402C70017523E /* ViewController.swift in Sources */,
+				06D06DB2247402C60017523E /* AppDelegate.swift in Sources */,
+				06D06DB4247402C70017523E /* SceneDelegate.swift in Sources */,
+				06D06DE824743C230017523E /* Art.swift in Sources */,
+				06D06DEA24743E200017523E /* ArtCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D06DC0247402C80017523E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D06DC9247402C80017523E /* TouratyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D06DCB247402C80017523E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D06DD4247402C80017523E /* TouratyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06D06DC6247402C80017523E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06D06DAD247402C60017523E /* Touraty */;
+			targetProxy = 06D06DC5247402C80017523E /* PBXContainerItemProxy */;
+		};
+		06D06DD1247402C80017523E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06D06DAD247402C60017523E /* Touraty */;
+			targetProxy = 06D06DD0247402C80017523E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06D06DB7247402C70017523E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06D06DB8247402C70017523E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06D06DBC247402C80017523E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06D06DBD247402C80017523E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06D06DD6247402C80017523E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06D06DD7247402C80017523E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06D06DD9247402C80017523E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EA700F203D0D877083733FB /* Pods-Touraty.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Touraty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.touraty.dev.Touraty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06D06DDA247402C80017523E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9050683D8C54030715EC182 /* Pods-Touraty.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Touraty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.touraty.dev.Touraty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		06D06DDC247402C80017523E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 841BFD8831C191BA954E89FC /* Pods-TouratyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TouratyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.touraty.dev.TouratyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Touraty.app/Touraty";
+			};
+			name = Debug;
+		};
+		06D06DDD247402C80017523E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69BFBC2351ADD869B2DAD434 /* Pods-TouratyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TouratyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.touraty.dev.TouratyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Touraty.app/Touraty";
+			};
+			name = Release;
+		};
+		06D06DDF247402C80017523E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ADD99DF57E1009C545D21EE /* Pods-TouratyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TouratyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.touraty.dev.TouratyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Touraty;
+			};
+			name = Debug;
+		};
+		06D06DE0247402C80017523E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9476D930047519EF03358C3 /* Pods-TouratyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TouratyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.touraty.dev.TouratyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Touraty;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06D06DA9247402C60017523E /* Build configuration list for PBXProject "Touraty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06D06DD6247402C80017523E /* Debug */,
+				06D06DD7247402C80017523E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06D06DD8247402C80017523E /* Build configuration list for PBXNativeTarget "Touraty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06D06DD9247402C80017523E /* Debug */,
+				06D06DDA247402C80017523E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06D06DDB247402C80017523E /* Build configuration list for PBXNativeTarget "TouratyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06D06DDC247402C80017523E /* Debug */,
+				06D06DDD247402C80017523E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06D06DDE247402C80017523E /* Build configuration list for PBXNativeTarget "TouratyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06D06DDF247402C80017523E /* Debug */,
+				06D06DE0247402C80017523E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06D06DA6247402C60017523E /* Project object */;
+}
